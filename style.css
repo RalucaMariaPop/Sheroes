@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Underdog&display=swap");
+
+body {
+  background-color: #a5a0a0;
+}
+header {
+  background-color: black;
+  margin: 0;
+  padding: 1rem;
+  font-family: "Underdog", cursive;
+}
+ul {
+  list-style-type: none;
+}
+ul a {
+  color: #fff;
+  list-style-type: none;
+}
+.nav {
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+h1 {
+  font-family: "Nosifer", cursive;
+}
+p {
+  font-family: "Underdog", cursive;
+}
+footer {
+  background-color: black;
+  padding: 1rem;
+}
+footer p {
+  color: #fff;
+}

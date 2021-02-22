@@ -134,8 +134,30 @@ ul:after {
   margin-left: 1rem;
   margin-top: 4rem;
   max-width: 100%;
+  border: 3px solid black;
 }
 
 .about_us {
   float: right;
+  font-family: "Underdog", cursive;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-self: center;
+}
+@media only screen and (max-width: 1200px) {
+  .about_main {
+    display: flex;
+    flex-direction: column;
+  }
+  .group_img {
+    max-width: 90%;
+    align-self: center;
+    margin-left: 0;
+  }
+  .about_us {
+    align-self: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 }

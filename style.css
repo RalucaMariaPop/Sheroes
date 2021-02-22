@@ -40,6 +40,17 @@ footer p {
   color: #fff;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: red;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
 /*Drop down menu*/
 
 ul {

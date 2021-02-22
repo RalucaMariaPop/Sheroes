@@ -122,3 +122,20 @@ ul:after {
   color: #bf0000;
   text-shadow: 0 0 3px #ff0000;
 }
+
+/*About page*/
+
+.about_main {
+  display: flex;
+}
+.group_img {
+  display: block;
+  float: left;
+  margin-left: 1rem;
+  margin-top: 4rem;
+  max-width: 100%;
+}
+
+.about_us {
+  float: right;
+}

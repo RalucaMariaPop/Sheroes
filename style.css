@@ -32,13 +32,6 @@ ul a {
 p {
   font-family: "Underdog", cursive;
 }
-footer {
-  background-color: black;
-  padding: 1rem;
-}
-footer p {
-  color: #bf0000;
-}
 
 .footer {
   position: fixed;

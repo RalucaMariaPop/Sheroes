@@ -154,3 +154,83 @@ ul:after {
     margin-right: 4rem;
   }
 }
+
+
+
+/*About2*/
+
+
+
+.bannerimage {
+  width: 100%;
+  background-size: cover;
+  
+  
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+h1 {
+  font-family: "Nosifer", cursive;
+  font-size: 50px;
+  margin: 0px;
+  color:whitesmoke;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: "Underdog", cursive;
+  font-size: 40px;
+  color:white;
+   
+}
+
+p{
+  font-size: 30px;
+  color: white;
+}
+
+
+
+
+
+.sheroes ::after {
+  content: "";
+  clear:both;
+  display: table;
+}
+
+.sheroes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+    #photo1,
+    #photo2,
+    #photo3
+    {
+      width: 200px;
+      height: 200px;
+      border: 3px solid red;
+    }
+
+
+figcaption {
+  font-size: 22px;
+  text-decoration: none;
+  color: papayawhip;
+}
+
+figcaption:hover {
+  color: lightskyblue;
+
+}

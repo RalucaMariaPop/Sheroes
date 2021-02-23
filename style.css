@@ -24,11 +24,6 @@ ul a {
   flex-direction: row;
   gap: 2rem;
 }
-.website_name {
-  font-family: "Nosifer", cursive;
-  font-size: 300%;
-  margin-left: 5rem;
-}
 p {
   font-family: "Underdog", cursive;
 }
@@ -39,10 +34,13 @@ p {
   bottom: 0;
   width: 100%;
   background-color: black;
-  color: red;
   display: flex;
   justify-content: center;
   height: auto;
+}
+.footer p {
+  color: #bf0000;
+  font-size: 100%;
 }
 /*Drop down menu*/
 
@@ -99,8 +97,7 @@ ul:after {
 
 .img_1 {
   /*border - will be deleted later*/
-  border: 3px solid black;
-  max-width: 100%;
+  max-width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -114,6 +111,16 @@ ul:after {
   font-size: 200%;
   color: #bf0000;
   text-shadow: 0 0 3px #ff0000;
+}
+@media only screen and (max-width: 1000px) {
+  .img_1 {
+    max-width: 70%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .img_1 {
+    max-width: 90%;
+  }
 }
 
 /*About page*/
@@ -153,84 +160,4 @@ ul:after {
     margin-left: 4rem;
     margin-right: 4rem;
   }
-}
-
-
-
-/*About2*/
-
-
-
-.bannerimage {
-  width: 100%;
-  background-size: cover;
-  
-  
-}
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-}
-
-h1 {
-  font-family: "Nosifer", cursive;
-  font-size: 50px;
-  margin: 0px;
-  color:whitesmoke;
-  text-align: center;
-
-}
-
-h2 {
-  font-family: "Underdog", cursive;
-  font-size: 40px;
-  color:white;
-   
-}
-
-p{
-  font-size: 30px;
-  color: white;
-}
-
-
-
-
-
-.sheroes ::after {
-  content: "";
-  clear:both;
-  display: table;
-}
-
-.sheroes {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-    #photo1,
-    #photo2,
-    #photo3
-    {
-      width: 200px;
-      height: 200px;
-      border: 3px solid red;
-    }
-
-
-figcaption {
-  font-size: 22px;
-  text-decoration: none;
-  color: papayawhip;
-}
-
-figcaption:hover {
-  color: lightskyblue;
-
 }

@@ -160,3 +160,55 @@ ul:after {
     margin-right: 4rem;
   }
 }
+
+/*CATEGORIES*/
+.author_name {
+  list-style-type: none;
+  margin-left: 1rem;
+  font-size: 150%;
+}
+.author_name a {
+  text-decoration-color: #a5a0a0;
+  color: black;
+  font-family: "Underdog", cursive;
+}
+.author_name li {
+  margin-bottom: 2rem;
+}
+.author_name a:hover {
+  text-decoration-color: black;
+}
+
+.letterLinks ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.letterLinks ol a {
+  text-decoration-color: #a5a0a0;
+  color: black;
+  font-family: "Underdog", cursive;
+}
+.letterLinks ol a:hover {
+  text-decoration-color: black;
+}
+
+/*Continents*/
+.continent {
+  font-family: "Underdog", cursive;
+  color: #a5a0a0;
+  margin-left: 4rem;
+}
+.letter {
+  font-family: "Nosifer", cursive;
+  font-size: 300%;
+  margin-left: 4rem;
+}
+
+.author_name li a:hover {
+  background-color: #a5a0a0;
+  padding: 1rem;
+}

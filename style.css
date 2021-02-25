@@ -171,6 +171,7 @@ ul:after {
   text-decoration-color: #a5a0a0;
   color: black;
   font-family: "Underdog", cursive;
+  margin-left: 5rem;
 }
 .author_name li {
   margin-bottom: 2rem;
@@ -197,7 +198,13 @@ ul:after {
 }
 
 /*Continents*/
-.continent {
+.continentNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.continent,
+h3 {
   font-family: "Underdog", cursive;
   color: #a5a0a0;
   margin-left: 4rem;
@@ -211,4 +218,46 @@ ul:after {
 .author_name li a:hover {
   background-color: #a5a0a0;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .author_name a,
+  .continent,
+  h3,
+  .letter {
+    margin-left: 1rem;
+  }
+}
+
+/*Author Page*/
+.author {
+  display: grid;
+  grid-template-areas:
+    " . an"
+    " fig nat"
+    "fig bd"
+    " . books";
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+
+  margin-left: 12.5rem;
+  margin-left: 12.5rem;
+}
+figcaption {
+  font-family: "Underdog", cursive;
+}
+figure {
+  grid-area: fig;
+}
+.nat {
+  grid-area: nat;
+}
+.an {
+  grid-area: an;
+}
+.bd {
+  grid-area: bd;
+}
+.books {
+  grid-area: books;
 }
